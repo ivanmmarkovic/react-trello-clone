@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, p {
+  font-family: Lato;
+}
+
+.container{
+  position: relative;
+  max-width: 100vw;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}

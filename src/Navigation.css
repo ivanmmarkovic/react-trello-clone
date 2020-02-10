@@ -1,0 +1,25 @@
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:rgba(80, 80, 218, 0.712);
+  padding: 10px;
+  z-index: 1;
+}
+
+nav > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin-right: 15px;
+  transition: color 1200ms ease-in-out;
+}
+
+nav > a:hover {
+  color: #000;
+}

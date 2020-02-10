@@ -1,0 +1,31 @@
+
+.boards-box{
+  position: relative;
+  max-width: 100vw;
+  min-width: 100vw;
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 50px;
+}
+
+.boards-box > h1 {
+  color: #000;
+}
+
+.boards-box > input {
+  max-width: 300px;
+  font-size: 1.2em;
+  color: rgb(192, 164, 164);
+  padding: 5px;
+  border: 1px solid rgba(172, 150, 150, 0.562);
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.boards{
+  display: flex;
+}
